@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 1em;
+    padding: 0;
+    background-color: #f0f0f0;
+    color:white;
+}
+button {
+    background-color: aquamarine;
+}
+
+.container{
+    background-color: gray;
+    border-radius: 5px;
+    padding:1em;
+    margin-bottom:1em;
+}
+

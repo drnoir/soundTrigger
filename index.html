@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Trigger with recording and FX (Tone.js)</title>
+    <script src="http://unpkg.com/tone"></script>
+    <script src="main.js" defer></script>
+    <script src="record.js" defer></script>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   <div id = "app">
+        <section class = "container">
+         <h1>Sound Trigger with recording and FX (Tone.js)</h1>
+         <h3>Sounds</h3>
+         <button id ="sound1">Play C4</button>
+         <button id ="sound2">Play C5</button>
+         <button id ="sound3">Play D4</button>
+         <button id ="sound4">Play G1</button>
+         <button id ="sound5">Play Notes</button>
+        </section>
+        <section class = "container">
+            <h3>Record</h3>
+            <button id ="start-record">(X)Start Recording</button>
+            <button id ="stop-record">(X)Stop Recording</button>
+            <div>
+                <h3>Playback</h3>
+            <audio id="audio-playback" controls></audio>
+        </div>
+        </section> 
+        <section class = "container">
+            <h3>Apply FX</h3>
+        <button id ="filter">Apply Filter</button>
+        <button id ="bigDelay">Create Feedback</button>
+    </section> 
+</body>
+</html>
